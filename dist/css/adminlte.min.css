@@ -12517,7 +12517,7 @@ body:not(.layout-fixed) .main-sidebar .sidebar {
 [class*="sidebar-dark-"] .nav-sidebar > .nav-item.menu-open > .nav-link,
 [class*="sidebar-dark-"] .nav-sidebar > .nav-item:hover > .nav-link,
 [class*="sidebar-dark-"] .nav-sidebar > .nav-item > .nav-link:focus {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: #b73627;
   color: #fff;
 }
 [class*="sidebar-dark-"] .nav-sidebar > .nav-item > .nav-link.active {
@@ -19484,7 +19484,7 @@ body.text-sm .control-sidebar {
   color: #fff;
 }
 .navbar-white {
-    background-color: #B73627;
+    background-color: #064264;
     color: #fff;
 }
 .navbar-white.navbar-light .form-control-navbar::-webkit-input-placeholder {
@@ -59403,4 +59403,32 @@ a.text-muted:hover {
 }
 .footercopy{
     color: #B73627;
+}
+.card_mainheader{
+  background-color: #064264;
+  padding: 12px 8px;
+}
+.card_mainheader .header_title{
+
+  font-size: 22px;
+  font-weight: 500;
+  color: #fff;
+  margin: 0;
+}.card_mainheader .create_lisbtn
+{
+  background: #B73627;
+  padding: 10px 18px;
+  color: #fff;
+  border-radius: 5px;
+}
+.create_lis_main label{
+  margin-bottom: 0rem!important;
+  font-weight: 500 !important;
+}
+.create_lisbtn
+{
+  background: #B73627;
+  padding: 10px 18px;
+  color: #fff;
+  border-radius: 5px;
 }
